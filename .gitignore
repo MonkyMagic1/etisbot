@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+key_*.py
+
+# Данные пользователей
+stats.json
+last_url.json
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
